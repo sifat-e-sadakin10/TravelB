@@ -1,3 +1,7 @@
+body {
+  font-family: "Mulish";
+}
+
 header {
   margin: auto;
   max-width: 1170px;
@@ -7,7 +11,7 @@ header {
       rgba(19, 19, 24, 0.8) 0%,
       rgba(19, 19, 24, 0) 100%
     ),
-    url("/Images/Group 13 (1) (1).png");
+    url("./Images/Group 13 (1) (1).png");
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 16px;
@@ -228,7 +232,7 @@ header .btns :last-child button {
   text-align: center;
   bottom: 0;
   right: 0;
-  transform: rotate(-30deg) translate(25px, -70px);
+  transform: rotate(-30deg) translate(30px, -90px);
 }
 .newsletter .img-box div span {
   font-size: 24px;
